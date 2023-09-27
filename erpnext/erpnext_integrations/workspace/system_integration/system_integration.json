@@ -10,7 +10,7 @@
  "icon": "integration",
  "idx": 0,
  "is_hidden": 0,
- "label": "ERPNext Integrations",
+ "label": "System integration",
  "links": [
   {
    "hidden": 0,
@@ -252,10 +252,10 @@
    "type": "Link"
   }
  ],
- "modified": "2023-05-24 14:47:25.984717",
+ "modified": "2023-09-25 15:11:42.731565",
  "modified_by": "Administrator",
  "module": "ERPNext Integrations",
- "name": "ERPNext Integrations",
+ "name": "System integration",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
@@ -263,7 +263,7 @@
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [],
- "sequence_id": 21.0,
+ "sequence_id": 13.0,
  "shortcuts": [],
- "title": "ERPNext Integrations"
+ "title": "System integration"
 }

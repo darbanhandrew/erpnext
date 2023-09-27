@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"qzP2mZrGOu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"Fkdjo6bJ7A\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Issue\",\"col\":3}},{\"id\":\"OTS8kx2f3x\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Maintenance Visit\",\"col\":3}},{\"id\":\"smDTSjBR3Z\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Level Agreement\",\"col\":3}},{\"id\":\"WCqL_gBYGU\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oxhWhXp9b2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"Ff8Ab3nLLN\",\"type\":\"card\",\"data\":{\"card_name\":\"Issues\",\"col\":4}},{\"id\":\"_lndiuJTVP\",\"type\":\"card\",\"data\":{\"card_name\":\"Maintenance\",\"col\":4}},{\"id\":\"R_aNO5ESzJ\",\"type\":\"card\",\"data\":{\"card_name\":\"Service Level Agreement\",\"col\":4}},{\"id\":\"N8aA2afWfi\",\"type\":\"card\",\"data\":{\"card_name\":\"Warranty\",\"col\":4}},{\"id\":\"M5fxGuFwUR\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"xKH0kO9q4P\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "content": "[{\"id\":\"qzP2mZrGOu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"Fkdjo6bJ7A\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Issue\",\"col\":3}},{\"id\":\"WCqL_gBYGU\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oxhWhXp9b2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"Ff8Ab3nLLN\",\"type\":\"card\",\"data\":{\"card_name\":\"Issues\",\"col\":4}},{\"id\":\"M5fxGuFwUR\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"xKH0kO9q4P\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
  "creation": "2020-03-02 15:48:23.224699",
  "custom_blocks": [],
  "docstatus": 0,
@@ -54,14 +54,6 @@
    "type": "Link"
   },
   {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Maintenance",
-   "link_count": 0,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
@@ -84,14 +76,6 @@
    "type": "Link"
   },
   {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Service Level Agreement",
-   "link_count": 0,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
@@ -101,14 +85,6 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Warranty",
-   "link_count": 0,
-   "onboard": 0,
-   "type": "Card Break"
   },
   {
    "dependencies": "",
@@ -171,7 +147,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-05-24 14:47:23.408966",
+ "modified": "2023-09-25 15:11:42.367243",
  "modified_by": "Administrator",
  "module": "Support",
  "name": "Support",
@@ -182,7 +158,7 @@
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [],
- "sequence_id": 12.0,
+ "sequence_id": 7.0,
  "shortcuts": [
   {
    "color": "Yellow",
@@ -190,16 +166,6 @@
    "label": "Issue",
    "link_to": "Issue",
    "stats_filter": "{\n    \"_assign\": [\"like\", '%' + frappe.session.user + '%'],\n    \"status\": \"Open\"\n}",
-   "type": "DocType"
-  },
-  {
-   "label": "Maintenance Visit",
-   "link_to": "Maintenance Visit",
-   "type": "DocType"
-  },
-  {
-   "label": "Service Level Agreement",
-   "link_to": "Service Level Agreement",
    "type": "DocType"
   }
  ],

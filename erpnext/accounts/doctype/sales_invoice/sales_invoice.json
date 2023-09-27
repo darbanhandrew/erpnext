@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_auto_repeat": 1,
  "allow_import": 1,
  "autoname": "naming_series:",
  "creation": "2022-01-25 10:29:57.771398",
@@ -2133,6 +2134,7 @@
    "read_only": 1
   },
   {
+   "default": "0",
    "depends_on": "allocate_advances_automatically",
    "description": "Advance payments allocated against orders will only be fetched",
    "fieldname": "only_include_allocated_payments",
@@ -2156,7 +2158,7 @@
    "link_fieldname": "consolidated_invoice"
   }
  ],
- "modified": "2023-06-19 16:02:05.309332",
+ "modified": "2023-09-11 23:43:27.660019",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Sales Invoice",
