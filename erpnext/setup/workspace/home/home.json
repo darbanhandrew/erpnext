@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"kb3XPLg8lb\",\"type\":\"header\",\"data\":{\"text\":\"<b>Shortcuts</b>\",\"col\":12}},{\"id\":\"OsO-6LHUJS\",\"type\":\"card\",\"data\":{\"card_name\":\"Skill\",\"col\":3}},{\"id\":\"vmyOjYYqcK\",\"type\":\"card\",\"data\":{\"card_name\":\"App Customer\",\"col\":4}},{\"id\":\"jfb1suK6vi\",\"type\":\"card\",\"data\":{\"card_name\":\"App Tasks\",\"col\":4}},{\"id\":\"d_KVM1gsf9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"JVu8-FJZCu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"N61oiXpuwK\",\"type\":\"card\",\"data\":{\"card_name\":\"CRM\",\"col\":4}},{\"id\":\"6J0CVl1mPo\",\"type\":\"card\",\"data\":{\"card_name\":\"Data Import and Settings\",\"col\":4}}]",
+ "content": "[{\"id\":\"kb3XPLg8lb\",\"type\":\"header\",\"data\":{\"text\":\"<b>Shortcuts</b>\",\"col\":12}},{\"id\":\"QbDEb-4BrH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sites\",\"col\":3}},{\"id\":\"oyyHKbwAM-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bench Settings\",\"col\":3}},{\"id\":\"NIa4rafy-Z\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bench Command Log\",\"col\":3}},{\"id\":\"nAei2qG6Rv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Site Backup\",\"col\":3}},{\"id\":\"OsO-6LHUJS\",\"type\":\"card\",\"data\":{\"card_name\":\"Skill\",\"col\":3}},{\"id\":\"vmyOjYYqcK\",\"type\":\"card\",\"data\":{\"card_name\":\"App Customer\",\"col\":4}},{\"id\":\"jfb1suK6vi\",\"type\":\"card\",\"data\":{\"card_name\":\"App Tasks\",\"col\":4}},{\"id\":\"d_KVM1gsf9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"_qq6rtsWGB\",\"type\":\"card\",\"data\":{\"card_name\":\"In App Marketing\",\"col\":4}},{\"id\":\"JVu8-FJZCu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"N61oiXpuwK\",\"type\":\"card\",\"data\":{\"card_name\":\"CRM\",\"col\":4}},{\"id\":\"6J0CVl1mPo\",\"type\":\"card\",\"data\":{\"card_name\":\"Data Import and Settings\",\"col\":4}}]",
  "creation": "2020-01-23 13:46:38.833076",
  "custom_blocks": [],
  "docstatus": 0,
@@ -218,34 +218,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Skill",
-   "link_count": 2,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Skill Category",
-   "link_count": 0,
-   "link_to": "Skill Category",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Skill",
-   "link_count": 0,
-   "link_to": "Skill",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "App Customer",
    "link_count": 4,
    "onboard": 0,
@@ -328,9 +300,75 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "In App Marketing",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "App Campaign",
+   "link_count": 0,
+   "link_to": "App Campaign",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subscription Coupon",
+   "link_count": 0,
+   "link_to": "Subscription Coupon",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Skill",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Skill Category",
+   "link_count": 0,
+   "link_to": "Skill Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Skill",
+   "link_count": 0,
+   "link_to": "Skill",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Skill Badges",
+   "link_count": 0,
+   "link_to": "Skill Badges",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-09-25 15:11:41.829806",
+ "modified": "2023-10-05 18:07:43.339002",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Home",
@@ -342,6 +380,35 @@
  "restrict_to_domain": "",
  "roles": [],
  "sequence_id": 1.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Sites",
+   "link_to": "Site",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bench Settings",
+   "link_to": "Bench Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bench Command Log",
+   "link_to": "Bench Manager Command",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Site Backup",
+   "link_to": "Site Backup",
+   "type": "DocType"
+  }
+ ],
  "title": "Home"
 }
