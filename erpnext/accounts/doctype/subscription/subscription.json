@@ -106,13 +106,13 @@
    "label": "Days Until Due"
   },
   {
-   "default": "0",
+   "default": "1",
    "fieldname": "cancel_at_period_end",
    "fieldtype": "Check",
    "label": "Cancel At End Of Period"
   },
   {
-   "default": "0",
+   "default": "1",
    "fieldname": "generate_invoice_at_period_start",
    "fieldtype": "Check",
    "label": "Generate Invoice At Beginning Of Period"
@@ -187,6 +187,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "default": "Customer",
    "fieldname": "party_type",
    "fieldtype": "Link",
    "label": "Party Type",
@@ -226,7 +227,7 @@
    "set_only_once": 1
   },
   {
-   "default": "0",
+   "default": "1",
    "description": "New invoices will be generated as per schedule even if current invoices are unpaid or past due date",
    "fieldname": "generate_new_invoices_past_due_date",
    "fieldtype": "Check",
@@ -271,7 +272,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-16 11:47:40.722388",
+ "modified": "2024-04-29 09:26:39.540620",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Subscription",
@@ -311,6 +312,19 @@
    "read": 1,
    "report": 1,
    "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Admin",
+   "select": 1,
    "share": 1,
    "write": 1
   }

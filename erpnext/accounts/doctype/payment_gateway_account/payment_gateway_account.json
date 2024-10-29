@@ -3,6 +3,7 @@
  "creation": "2015-12-23 21:31:52.699821",
  "doctype": "DocType",
  "editable_grid": 1,
+ "engine": "InnoDB",
  "field_order": [
   "payment_gateway",
   "payment_channel",
@@ -74,7 +75,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-09-20 13:30:27.722852",
+ "modified": "2024-04-29 09:18:57.257962",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Payment Gateway Account",
@@ -91,8 +92,21 @@
    "role": "Accounts Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Admin",
+   "share": 1,
+   "write": 1
   }
  ],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }

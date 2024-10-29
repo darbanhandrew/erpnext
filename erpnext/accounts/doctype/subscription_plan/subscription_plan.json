@@ -148,7 +148,7 @@
   }
  ],
  "links": [],
- "modified": "2023-09-13 03:27:27.623635",
+ "modified": "2024-04-29 09:17:34.706980",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Subscription Plan",
@@ -200,6 +200,18 @@
    "read": 1,
    "report": 1,
    "role": "End User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Admin",
    "share": 1,
    "write": 1
   }
